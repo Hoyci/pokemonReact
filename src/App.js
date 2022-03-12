@@ -1,24 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { 
+  BrowserRouter as Router,
+  Routes, 
+  Route
+} from "react-router-dom"
+import { GlobalStyles } from "./GlobalStyles";
+import Navbar from "./components/NavBar/NavBar"
+import Home from "./routes/Home"
+import Pokedex from "./routes/Pokedex"
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <GlobalStyles />
+      <Navbar />
+
+      <Routes>
+        <Route exact path="/" element={<Home />} />
+        <Route path="pokedex/:pageNumber" element={<Pokedex />} />
+      </Routes>
+    </Router>
   );
 }
 
