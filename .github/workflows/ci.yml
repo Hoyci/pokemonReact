@@ -28,9 +28,9 @@ jobs:
         cache: 'npm'
     - name: Install dependencies
       run: npm install
-    - name: Build
+    - name: build
       run: npm run build --if-present
-    - name: Deploy
+    - name: deploy
       run: |
         git config --global user.name $user_name
         git config --global user.email $user_email
