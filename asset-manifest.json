@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/pokemonReact/home/static/js/main.57d8202f.js",
-    "static/media/pokeapi.png": "/pokemonReact/home/static/media/pokeapi.888baca4809420be1126.png",
-    "index.html": "/pokemonReact/home/index.html",
-    "main.57d8202f.js.map": "/pokemonReact/home/static/js/main.57d8202f.js.map"
+    "main.js": "/pokemonReact/static/js/main.e321328a.js",
+    "static/media/pokeapi.png": "/pokemonReact/static/media/pokeapi.888baca4809420be1126.png",
+    "index.html": "/pokemonReact/index.html",
+    "main.e321328a.js.map": "/pokemonReact/static/js/main.e321328a.js.map"
   },
   "entrypoints": [
-    "static/js/main.57d8202f.js"
+    "static/js/main.e321328a.js"
   ]
 }
