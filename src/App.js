@@ -15,8 +15,8 @@ function App() {
       <Navbar />
 
       <Routes>
-        <Route exact path="/" element={<Home />} />
-        <Route path="pokedex/:pageNumber" element={<Pokedex />} />
+        <Route path="pokemonReact/home" element={<Home />} />
+        <Route path="pokemonReact/pokedex/:pageNumber" element={<Pokedex />} />
       </Routes>
     </Router>
   );

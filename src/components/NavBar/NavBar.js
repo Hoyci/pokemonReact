@@ -20,7 +20,7 @@ function Navbar() {
     return(
         <Nav>
             <NavbarContainer>
-                <NavLogo to="/">
+                <NavLogo to="pokemonReact/home">
                     <NavIcon src={logo}/>
                 </NavLogo>
                 <MenuIcon onClick={handleClick}>
@@ -29,10 +29,10 @@ function Navbar() {
 
                 <Menu onClick={handleClick} click={click}>
                     <MenuItem>
-                        <MenuLink onClick={handleClick} to="/">Home</MenuLink>
+                        <MenuLink onClick={handleClick} to="pokemonReact/home">Home</MenuLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuLink onClick={handleClick} to="/pokedex/1">Pokédex</MenuLink>
+                        <MenuLink onClick={handleClick} to="pokemonReact/pokedex/1">Pokédex</MenuLink>
                     </MenuItem>
                 </Menu>
 
