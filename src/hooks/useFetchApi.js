@@ -9,17 +9,16 @@ export default function useFetchApi(pageNumber) {
     
     useEffect(() => {
         const listIds = getIDsPerPage(pageNumber, NUMBERS_OF_POKEMONS_PER_PAGE)
-        console.log(listIds)
+        // console.log(listIds)
         const fetchApi = async () => {
-            const promises = []
+            const promisesData = []
             listIds.forEach(id => {
-                promises.push(
+                promisesData.push(
                     pokeApi.getPokemonById(id)
                 )
             });
-            console.log(promises)
             
-            await Promise.all(promises)
+            await Promise.all(promisesData)
                 .then(response => response.map(item => item.data))
                 .then(data => setPokemonsInfo(data))
                 .then(setLoading(false))

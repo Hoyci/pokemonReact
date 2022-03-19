@@ -12,7 +12,6 @@ flex: 1 0 30%;
     box-shadow: 4px 4px 22px 10px rgba(19,24,27,0.35);
 }
 `
-
 export const CardHeader = styled.div`
 color: #FFF;
 display: flex;
@@ -39,6 +38,10 @@ margin-bottom: ${props => props.marginBottom || "15px"};
 @media only screen and (max-width: 380px){
     font-size: 1.5rem;
 }
+`
+export const CardImg = styled.img`
+width: 150px;
+height: auto;
 `
 
 export const CardTopics = styled.div`
