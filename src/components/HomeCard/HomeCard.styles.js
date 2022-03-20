@@ -36,18 +36,14 @@ margin-bottom: ${props => props.marginBottom || "15px"};
     font-size: 1.5rem;
 }
 `
-export const CardImg = styled.img`
-width: 150px;
-height: auto;
-`
 
-export const CardTopics = styled.div`
+export const HomeCardTopics = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
 `
-export const Topics = styled(CardTopics)`
+export const Topics = styled(HomeCardTopics)`
 display: flex;
 align-items: flex-start;
 `

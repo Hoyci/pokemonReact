@@ -1,4 +1,4 @@
-import { CardContainer, CardHeader, CardImg, CardTopics, Text } from '../Card/Card.styles'
+import { CardContainer, CardHeader, CardImg, CardTopics, Text } from './PokeCard.styles'
 
 export default function PokeCard({pokemon}) {
   return (

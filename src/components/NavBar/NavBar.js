@@ -32,7 +32,7 @@ function Navbar() {
                         <MenuLink onClick={handleClick} to="/pokemonReact/">Home</MenuLink>
                     </MenuItem>
                     <MenuItem>
-                        <MenuLink onClick={handleClick} to="/pokedex/1">Pokédex</MenuLink>
+                        <MenuLink onClick={handleClick} to="/pokemonReact/pokedex/1">Pokédex</MenuLink>
                     </MenuItem>
                 </Menu>
 

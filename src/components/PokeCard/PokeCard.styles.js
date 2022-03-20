@@ -12,6 +12,7 @@ flex: 1 0 30%;
     box-shadow: 4px 4px 22px 10px rgba(19,24,27,0.35);
 }
 `
+
 export const CardHeader = styled.div`
 color: #FFF;
 display: flex;

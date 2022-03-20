@@ -1,12 +1,12 @@
 import React from 'react'
-import { HomeCardContainer, HomeCardHeader, Text, Title, CardTopics, Topics, ContentTopic } from './HomeCard.styles'
+import { HomeCardContainer, HomeCardHeader, Text, Title, HomeCardTopics, Topics, ContentTopic } from './HomeCard.styles'
 import { LinkReference } from '../Utils.styles'
 
 export default function Card() {
   return (
     <HomeCardContainer>
         <HomeCardHeader>
-            <Title>PokeStudy</Title>
+            <Title>PokeApi</Title>
             <Text>
                 This is a study project with the front-end based in 
                 <LinkReference href='https://pokeapi.co/' target="_blank"> PokéApi </LinkReference>
@@ -17,7 +17,7 @@ export default function Card() {
                 article to learn how to use styled components and how to create a responsive NavBar.
             </Text>
         </HomeCardHeader>
-        <CardTopics>
+        <HomeCardTopics>
             <Title>Topics I learned</Title>
             <Topics>
                 <ContentTopic>
@@ -37,7 +37,7 @@ export default function Card() {
                     <Text>Create an instance of axios to make the code more readable</Text>
                 </ContentTopic>
             </Topics>
-        </CardTopics>
+        </HomeCardTopics>
     </HomeCardContainer>
   )
 }
