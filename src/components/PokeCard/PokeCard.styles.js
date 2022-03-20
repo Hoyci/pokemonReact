@@ -6,7 +6,7 @@ min-width: ${props => props.width || "800px"};
 padding: 25px;
 border-radius: 5px;
 background-color: ${props => props.color || "#263238"};
-margin: 0px 10px 40px 10px;
+margin: 0px 0px 40px;
 flex: 1 0 30%;
 &:hover {
     box-shadow: 4px 4px 22px 10px rgba(19,24,27,0.35);
