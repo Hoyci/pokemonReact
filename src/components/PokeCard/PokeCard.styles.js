@@ -12,7 +12,7 @@ flex: 1 0 30%;
     box-shadow: 4px 4px 22px 10px rgba(19,24,27,0.35);
 }
 @media only screen and (max-width: 400px){
-    margin: 0px 40px;
+    margin: 0px 0px 40px;
 }
 `
 
