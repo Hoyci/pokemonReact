@@ -1,12 +1,8 @@
-import { 
-  BrowserRouter as Router,
-  Routes, 
-  Route
-} from "react-router-dom"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { GlobalStyles } from "./GlobalStyles";
-import Navbar from "./components/NavBar/NavBar"
-import Home from "./routes/Home"
-import Pokedex from "./routes/Pokedex"
+import Navbar from "./components/NavBar/NavBar";
+import Home from "./routes/Home";
+import Pokedex from "./routes/Pokedex";
 
 function App() {
   return (
