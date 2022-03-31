@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/pokemonReact/static/js/main.bd4bc271.js",
+    "main.js": "/pokemonReact/static/js/main.e952c909.js",
     "static/media/pokeapi.png": "/pokemonReact/static/media/pokeapi.888baca4809420be1126.png",
     "index.html": "/pokemonReact/index.html",
-    "main.bd4bc271.js.map": "/pokemonReact/static/js/main.bd4bc271.js.map"
+    "main.e952c909.js.map": "/pokemonReact/static/js/main.e952c909.js.map"
   },
   "entrypoints": [
-    "static/js/main.bd4bc271.js"
+    "static/js/main.e952c909.js"
   ]
 }
